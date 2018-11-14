@@ -12,7 +12,7 @@ etc...<br>
 <br>
 ![image](https://github.com/roytian1217/apartment/blob/master/screenshots/apt-all.png)<br>
 <br>
-2.降价房源占总房源比例-链家-番禺区-2018年8月底至10月下旬，番禺区二手房确实一直在降价（降价幅度可另外分析）<br>
+2.降价房源占总房源比例-链家-番禺区-2018年8月底至10月下旬，番禺区二手房降价比例在增加（降价幅度可另外分析）<br>
 <br>
 ![image](https://github.com/roytian1217/apartment/blob/master/screenshots/price-down-rate.png)<br>
 <br>
