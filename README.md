@@ -20,7 +20,7 @@ etc...<br>
 <br>
 ![image](https://github.com/roytian1217/apartment/blob/master/screenshots/price-down-lianjia.png)<br>
 <br>
-4.最近一个月，7日带看，30日带看走势，可以分析出节假日看房的人较多(感觉这个不用分析也能推测出来[哭笑])<br>
+4.最近一个月近7日带看、30日带看走势-链家-番禺区 ，可以分析出节假日看房的人较多(感觉这个不用分析也能推测出来[哭笑])<br>
 <br>
 ![image](https://github.com/roytian1217/apartment/blob/master/screenshots/check-rate.png)<br>
 <br>
