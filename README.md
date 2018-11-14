@@ -9,15 +9,19 @@
 etc...<br>
 ### 部分数据及分析展示<br>
 1.所有中介房源详细信息（部分字段）-番禺区-2018年11月13日（7680条）<br>
+<br>
 ![image](https://github.com/roytian1217/apartment/blob/master/screenshots/apt-all.png)<br>
-
+<br>
 2.降价房源占总房源比例-链家-番禺区-2018年8月底至10月下旬，番禺区二手房确实一直在降价（降价幅度可另外分析）<br>
+<br>
 ![image](https://github.com/roytian1217/apartment/blob/master/screenshots/price-down-rate.png)<br>
-
+<br>
 3.近2个半月（2018年8月底至11月13日）降价房源详细信息（部分字段）-链家-番禺区（1670条）<br>
+<br>
 ![image](https://github.com/roytian1217/apartment/blob/master/screenshots/price-down-lianjia.png)<br>
-
+<br>
 4.最近一个月，7日带看，30日带看走势，可以分析出节假日看房的人较多(感觉这个不用分析也能推测出来[哭笑])<br>
+<br>
 ![image](https://github.com/roytian1217/apartment/blob/master/screenshots/check-rate.png)<br>
 <br>
 
