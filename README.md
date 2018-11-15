@@ -8,7 +8,7 @@
 4.近n日7/30日带看次数占总房源数比例<br>
 etc...<br>
 ### 部分数据及分析展示<br>
-1.所有中介房源详细信息（部分字段）-广州市番禺区-2018年11月13日（7680条）<br>
+1.所有中介房源详细信息（这里只展示了部分字段）-广州市番禺区-2018年11月13日（7680条）<br>
 <br>
 ![image](https://github.com/roytian1217/apartment/blob/master/screenshots/apt-all.png)<br>
 <br>
@@ -16,7 +16,7 @@ etc...<br>
 <br>
 ![image](https://github.com/roytian1217/apartment/blob/master/screenshots/price-down-rate.png)<br>
 <br>
-3.近2个半月（2018年8月底至11月13日）降价房源详细信息（部分字段）-链家-广州市番禺区（1670条）<br>
+3.近2个半月（2018年8月底至11月13日）降价房源详细信息（这里只展示了部分字段）-链家-广州市番禺区（1670条）<br>
 <br>
 ![image](https://github.com/roytian1217/apartment/blob/master/screenshots/price-down-lianjia.png)<br>
 <br>
