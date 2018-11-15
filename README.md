@@ -8,8 +8,6 @@
 4.近n日7/30日带看次数占总房源数比例<br>
 etc...<br>
 <br>
-<font color=red>感兴趣的同学帮忙star点一下，你的star是我维护更新的动力</font>
-<br>
 ### 部分数据及分析展示<br>
 1.所有中介房源详细信息（这里只展示了部分字段）-广州市番禺区-2018年11月13日（7680条）<br>
 <br>
@@ -27,6 +25,7 @@ etc...<br>
 <br>
 ![image](https://github.com/roytian1217/apartment/blob/master/screenshots/check-rate.png)<br>
 <br>
-
+感兴趣的同学帮忙star点一下，你的star也是我维护更新的动力
+<br>
 **疑问解答及对数据感兴趣的可以联系笔者**<br>
 QQ 373119611
