@@ -48,7 +48,6 @@ class SellingAPTUrlSpider(scrapy.Spider):
         url_list = ['https://wap.leyoujia.com/guangzhou/esf/a2/',
                     'https://wap.leyoujia.com/guangzhou/esf/a7/']
         for url in url_list:
-            time.sleep(random.random() + 0.5)
             yield scrapy.Request(url=url, headers=self.headers_list, callback=self.parse)
 
     def parse(self, response):
@@ -62,7 +61,6 @@ class SellingAPTUrlSpider(scrapy.Spider):
             base_url = response.url
             for num in range(1, max_num + 1):
                 url = base_url + "?s=7&n=" + str(num)
-                time.sleep(random.random() + 0.5)
                 yield scrapy.Request(url=url, callback=self.get_apt_url, headers=self.headers_list,
                                      meta={'rawurl': response.url})
 

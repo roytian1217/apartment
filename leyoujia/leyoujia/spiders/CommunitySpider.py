@@ -52,7 +52,6 @@ class CommunitySpider(scrapy.Spider):
         base_url = response.url
         for num in range(1, max_num+1):
             url = base_url + "?n=" + str(num)
-            time.sleep(random.random())
             yield scrapy.FormRequest(url, callback=self.get_community_url, headers=self.headers_ajax)
 
     def get_community_url(self, response):
@@ -60,7 +59,6 @@ class CommunitySpider(scrapy.Spider):
         list = BeautifulSoup(jsobj["data"].replace("\r\n", "").replace('\"', '"'), "html.parser") \
             .find_all("a", {'class': 'clear'})
         for a in list:
-            time.sleep(random.random())
             com_url = self.base_url + a.get('href')
             yield scrapy.Request(com_url, callback=self.get_community, headers=self.headers_list)
 

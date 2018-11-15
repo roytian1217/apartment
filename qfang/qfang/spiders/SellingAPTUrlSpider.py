@@ -55,7 +55,6 @@ class SellingAPTUrlSpider(scrapy.Spider):
                                         datetime.datetime.now().strftime('%Y-%m-%d'))
             if total_num[0]==0:
                 logging.info("开始爬取，已爬取【%s】条" % (total_num[0]))
-                time.sleep(random.random() + 0.5)
                 yield scrapy.Request(url=url, headers=self.headers_list, callback=self.parse, meta={'rawurl': url})
             else:
                 ret = Sql.get_qfang_need_crawl_url(url, datetime.datetime.now().strftime('%Y-%m-%d'))
@@ -63,7 +62,6 @@ class SellingAPTUrlSpider(scrapy.Spider):
                     logging.info("当天url已爬取完毕，不需要再爬取")
                 else:
                     logging.info("开始爬取，已爬取【%s】条" % (total_num[0]))
-                    time.sleep(random.random() + 0.5)
                     yield scrapy.Request(url=url, headers=self.headers_list, callback=self.parse,meta={'rawurl': url})
 
     def parse(self, response):
@@ -79,7 +77,6 @@ class SellingAPTUrlSpider(scrapy.Spider):
             url = base_url + "?page="+page_num
             self.num+=1
             hd=self.headers_ajax
-            time.sleep(random.random() + 0.5)
             yield scrapy.FormRequest(url=url, method='GET', formdata={'more': page_num}, callback=self.parse,
                                      headers=hd,meta={'rawurl': response.meta['rawurl']})
             for a in list:

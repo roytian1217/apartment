@@ -51,7 +51,6 @@ class SellingAPTContentSpider(scrapy.Spider):
         #url_list=[['https://wap.leyoujia.com/guangzhou/esf/detail/71609487.html']]
         logging.info("待爬取网页有【%s】条"%len(url_list))
         for li in url_list:
-            time.sleep(random.random() + 0.5)
             ret = Sql.select_by_id_date('selling_apt_record', re.findall('/(\d*).html', li[0])[0],
                                         datetime.datetime.now().strftime('%Y-%m-%d'))
             if ret[0] == 1:  # 有数据的就不爬了(一般不会有这种情况，除非是之前历史的先跑了url，不是通过查表跑的)
