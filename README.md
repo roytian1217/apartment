@@ -2,7 +2,7 @@
 [![Python](https://img.shields.io/badge/Python-3.6%2B-brightgreen.svg)](https://www.python.org)<br>
 目前属于初版，每天的数据已经很平稳，波动不大，但是也还有很多可以优化的地方；<br>
 1.【可伸缩】产品发现与产品析取分为不同的spider（urlspider、contentspider） 【√】<br>
-2.【更稳定】增量url池，不以每天房源列表的url为准，因为房源列表有反爬，可能今天爬得到的url，明天就没了，增量url池可以解决这个问题，每天新增、修改url池，让数据更稳定分析更准确 【TODO】<br>
+2.【更稳定】增量url池，不以每天房源列表的url为准，因为房源列表有反爬，可能今天爬得到的url，明天就没了，增量url池可以很大程度缓解这个问题，每天新增、修改url池，让数据更稳定分析更准确 【TODO】<br>
 3.【更快速】contentspider改为scrapy-redis分布式监听redis，每天url存入redis，分布式的析取房源信息 【TODO】<br>
 <br>
 感兴趣的同学帮忙star点一下，你的star也是我维护升级的动力<br>
