@@ -6,6 +6,7 @@
 3.【更快速】contentspider改为scrapy-redis分布式监听redis，每天url存入redis，分布式的析取房源信息 【TODO】<br>
 <br>
 感兴趣的同学帮忙star点一下，你的star也是我维护升级的动力<br>
+<br>
 ### 数据分析维度<br>
 1.所有中介房源详细信息<br>
 2.近n日降价/涨价房源占总房源数比例<br>
