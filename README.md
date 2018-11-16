@@ -15,20 +15,20 @@
 etc...<br>
 <br>
 ### 部分数据及分析展示<br>
-图1.所有中介房源详细信息（这里只展示了部分字段）-广州市番禺区-2018年11月13日（7680条）<br>
+【图1】所有中介房源详细信息（这里只展示了部分字段）-广州市番禺区-2018年11月13日（7680条）<br>
 <br>
 ![image](https://github.com/roytian1217/apartment/blob/master/screenshots/apt-all.png)<br>
 <br>
-图2.降价房源占总房源比例-链家-广州市番禺区-2018年8月底至10月下旬，广州市番禺区二手房降价比例在增加。<br>
+【图2】降价房源占总房源比例-链家-广州市番禺区-2018年8月底至10月下旬，广州市番禺区二手房降价比例在增加。<br>
 例如从8月底到11月13号，广州市番禺区降价房源数量为1670套（图3），13号当天总房源5441套，那么降价比例就是1670/5441=0.3069，那么就是三成的房源有降价（降价幅度可另外分析）<br>
 <br>
 ![image](https://github.com/roytian1217/apartment/blob/master/screenshots/price-down-rate.png)<br>
 <br>
-图3.近2个半月（2018年8月底至11月13日）降价房源详细信息（这里只展示了部分字段）-链家-广州市番禺区（1670条）<br>
+【图3】近2个半月（2018年8月底至11月13日）降价房源详细信息（这里只展示了部分字段）-链家-广州市番禺区（1670条）<br>
 <br>
 ![image](https://github.com/roytian1217/apartment/blob/master/screenshots/price-down-lianjia.png)<br>
 <br>
-图4.最近一个月近7日带看、30日带看走势-链家-广州市番禺区 ，可以分析出节假日看房的人较多(感觉这个不用分析也能推测出来[哭笑])<br>
+【图4】最近一个月近7日带看、30日带看走势-链家-广州市番禺区 ，可以分析出节假日看房的人较多(感觉这个不用分析也能推测出来[哭笑])<br>
 <br>
 ![image](https://github.com/roytian1217/apartment/blob/master/screenshots/check-rate.png)<br>
 <br>
