@@ -1,4 +1,4 @@
-import datetime
+﻿import datetime
 import json
 import os
 import random
@@ -65,7 +65,7 @@ class SellingAPTUrlSpider(scrapy.Spider):
                                      meta={'rawurl': response.url})
 
     def get_apt_url(self, response):
-        list = BeautifulSoup(response.body, "html.parser").find_all("a", {'class': 'clear jjs_bd_log'})
+        list = BeautifulSoup(response.body, "html.parser").find_all("a", {'class': 'clear jjs_bd_log '})
         item_list=[]
         for a in list:
             url = self.base_url + a.get('href').replace('/sz/', '/guangzhou/')
