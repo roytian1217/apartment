@@ -69,7 +69,8 @@ class SellingAPTContentSpider(scrapy.Spider):
             item["source"]=self.source
             item["url"]=response.url
             item["community_name"]=re.findall('<span class="gray">小区：</span>(.*)</a>', response.text)[0]
-            item["community_id"]=re.findall('<a href="/gz/xiaoqu/(\d*)/"', response.text)[0]
+            #item["community_id"]=re.findall('<a href="/gz/xiaoqu/(\d*)/"', response.text)[0]
+            item["community_id"]=''
             item["year"]=re.findall('<li class="short"><span class="gray">年代：</span>(.*)</li>', response.text)[0].replace('暂无数据','999-9-9').replace('年','')
             item["title"] = re.findall('data-ulog="housedel_id='+item["id"]+'" >\n(.*)<h3', response.text)[0].strip()
             item["unit_price"]=Decimal(re.findall('<span class="gray">单价：</span>(.*)</li>', response.text)[0].replace('元/平','').replace(',',''))

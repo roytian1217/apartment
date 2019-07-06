@@ -74,10 +74,13 @@ class SellingAPTUrlSpider(scrapy.Spider):
                                      meta={'rawurl': response.url})
 
     def get_apt_url(self, response):
-        list = BeautifulSoup(response.body, "html.parser").find_all("a", {'class': 'a_mask post_ulog post_ulog_action'})
+        list = BeautifulSoup(response.body, "html.parser").find_all("a", {'class': 'a_mask post_ulog post_ulog_action VIEWDATA CLICKDATA'})
+        # logging.info(response.body)
+        logging.info("获取到a标签【%s】条" % len(list))
         item_list = []
         for a in list:
-            com_url = self.base_url + a.get('href')
+            # com_url = self.base_url + a.get('href')
+            com_url = a.get('href')
             item = CrawlUrlItem()
             item['id'] = re.findall('/(\d*)\.html', com_url)[0]
             item["crawl_date"] = datetime.datetime.now().strftime('%Y-%m-%d')
@@ -91,5 +94,6 @@ class SellingAPTUrlSpider(scrapy.Spider):
             item["rawurl4"] = ""
             item["status"] = 0
             item["error_count"] = 0
+            # logging.info(item.values())
             item_list.append(item)
         return item_list
